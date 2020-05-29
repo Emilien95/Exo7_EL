@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body onLoad="M.AutoInit();">
+
+
+
+
+
+
+
+    <div id="header" class="row grey darken-4 white-text">
+            <div class="col l10"><h4>Cours et exercices<br> de mathématiques</h4></div>
+            
+                     <a href="index2.html"> 
+             <img src="images/LogoExo7-mini.png"  alt="Exo7"/>
+                     </a>
+    </div>
+
+
+
+
+
+<!--    <div id="headerpic"></div>
+-->
+    <nav>
+        <div class="nav-wrapper center">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="un.html" >Première année</a></li>
+                <li><a href="deux.html">Deuxième année</a></li>
+                <li><a href="trois.html">Troisième année</a></li>
+                <li><a href="prof.html">Pour les profs</a></li>
+                <li><a href="search.php">Rechercher</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+    <li><a href="un.html">Première année</a></li>
+    <li><a href="deux.html">Deuxième année</a></li>
+    <li><a href="trois.html">Troisième année</a></li>
+    <li><a href="prof.html">Pour les profs</a></li>
+    <li><a href="search.php">Rechercher</a></li>
+  </ul>
+
+<div class="container">
+  <h4>Les exercices</h4>  
+                    
+<p>Le projet Exo7 propose aux étudiants des fiches d’exercices de mathématique avec 
+indications et corrections de niveau L1-L2-L3. Nous proposons dorénavant des vidéos d'exercices et de cours de maths !
+Ces documents sont élaborés, corrigés par des enseignants du supérieur. 
+Le site propose en plus aux enseignants des exercices non corrigés. 
+
+</p>
+<p>
+Toutes les fiches d'exercices corrigées sont rendues publiques
+dans la <a href="index.html">partie destinée aux étudiants</a>.</p>
+
+<p>
+Vous trouverez le code source en saisissant le numéro de l'exercice dans le 
+<a href="search.php">cadre de saisie.</a>
+<br><br>
+Vous pouvez aussi récupérer tous les exercices (corrigés ou non) en un seul fichier 
+(les exercices sont triés par thème, la numérotation absolue est entre crochets). Vous avez aussi
+à votre disposition les fichiers sources des polycopiés de cours (ainsi que les diapos
+<i>beamer</i> et les figures <i>TikZ</i>).</p>
+<br>
+<a href='ficpdf/ficall.pdf' target='_blank' class="waves-effect waves-light btn-large">Tous les exercices au format PDF</a>
+<a href='ficpdf/ficall.tex' target='_blank' class="waves-effect waves-light btn-large">Tous les exercices au format LaTeX</a>
+<a href='https://github.com/exo7math' class="waves-effect waves-light btn-large">Les fichiers sources des cours au format LaTeX sur GitHub</a>
+<br>
+<h5>Auteurs</h5>
+<p>
+<ul> 
+  <li> Les exercices de concours de <a href="http://michel.quercia.free.fr">Michel Quercia</a>.</li>
+  <li> Les exercices de prépas de <a href='http://www.maths-france.fr'>J.-L. Rouget</a>.</li>
+  <li> Voici ceux qui ont contribué à la "Bibliothèque d'exercices":
+   Arnaud Bodin, Eliane Cousquer, François Gourio, Pierre-Yves Legall, Pascal Ortiz,  Franz Ridde
+qui ont fournit un grand nombre d'exercices,
+et aussi Jean-François Barraud, Cécile Drouet, Cornélia Drutu, Olivier Gineste, Vincent Guirardel, Jean-Marc 
+Hécart, Arnaud Hilion, Jean-Marie Lescure,  Isabelle Liousse, Sylvain Maillot, Nicolas Marco, Bertrand 
+Monthubert, Nadja Rebinguet, Sandrine Roussel, Marie-Helène Vignal.</li>
+ <li> Pour les contributions plus récentes, en particulier en L3 :
+Cornélia Drutu,  Volker Mayer, Leonid Potyagailo, Anne-Marie Chollet, Gijs Tuynman, Valery Gritsenko,
+Jean-François Barraud, Arnaud Bodin, Frédéric Sarkis.</li>
+ <li> Les exercice de Matexo1.</li>
+ <li> Martine Quinio.</li>
+
+ <li> Pour les exercices récents le nom de l'auteur est aussi  visible dans le code source de 
+l'exercice.</li>
+</ul></p>
+
+<p>
+Un grand merci à eux !
+</p>
+
+<p>
+Si vous êtes enseignant vous pouvez contribuer à ce projet en envoyant vos corrections, énoncés
+et en signalant toutes les fautes existantes. Il vous suffit d'écrire à 
+<a href = http://math.univ-lille1.fr/~bodin>Arnaud Bodin</a>.
+</p>
+
+<p>
+Accès restreint : <a href="https://exo7.emath.fr/">page des modifications.</a>
+</p>
+<br>
+
+<h5>Questions fréquentes</h5>
+<p>
+
+<ul> 
+
+ <li> <i>J'ai trouvé une faute dans un exercice. </i>
+  <br/>Dans ce cas, merci de <a href="mailto:exo7@emath.fr">signaler l'erreur</a>. N'oubliez pas de mentionner le numéro absolu que vous trouvez soit en consultant les exercices en ligne, soit dans le fichier LaTeX.
+<br/><br/>
+  <li> <i>J'ai des problèmes avec les accents.</i>
+ <br/> Si vous obtenez du texte avec des symboles bizarres,
+changez l'encodage de votre fichier texte en <b>utf8</b>. 
+<br/><br/>
+  <li> <i>Où récupérer les images ?</i>
+  <br/> Dans le repertoire exo7.emath.fr/images/ ! Notez que pour certaines images vous avez auusi le fichier source (par exemple .fig pour xfig, ou .maple pour des commandes Maple,...).
+<br/><br/>
+  <li> <i>Quelle est la licence d'utilisation ? </i>
+  <br/> La licence d'utilisation d'Exo7 se trouve à la page <a href="licence.html">licence 
+d'utilisation</a>.
+</ul>
+</p>
+
+
+
+
+
+
+
+
+</div>
+      <script type="text/javascript" src="materialize/js/materialize.js"></script>
+</body>
+</html>
