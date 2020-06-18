@@ -36,6 +36,7 @@
         <div class="nav-wrapper center">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
+                <li><a href="index2.html">Acceuil</a></li>
                 <li><a href="un.html" >Première année</a></li>
                 <li><a href="deux.html">Deuxième année</a></li>
                 <li><a href="trois.html">Troisième année</a></li>
@@ -46,6 +47,7 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
+    <li><a href="index2.html">Acceuil</a></li>
     <li><a href="un.html">Première année</a></li>
     <li><a href="deux.html">Deuxième année</a></li>
     <li><a href="trois.html">Troisième année</a></li>
@@ -75,10 +77,18 @@ Vous pouvez aussi récupérer tous les exercices (corrigés ou non) en un seul f
 à votre disposition les fichiers sources des polycopiés de cours (ainsi que les diapos
 <i>beamer</i> et les figures <i>TikZ</i>).</p>
 <br>
-<a href='ficpdf/ficall.pdf' target='_blank' class="waves-effect waves-light btn-large">Tous les exercices au format PDF</a>
-<a href='ficpdf/ficall.tex' target='_blank' class="waves-effect waves-light btn-large">Tous les exercices au format LaTeX</a>
-<a href='https://github.com/exo7math' class="waves-effect waves-light btn-large">Les fichiers sources des cours au format LaTeX sur GitHub</a>
-<br>
+
+<a class='dropdown-trigger btn ' href='#' data-target='dropdown1'>Télécharger tous les exercices</a>
+
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href='ficpdf/ficall.pdf' target='_blank' class="waves-effect waves-light btn-large white-text">Format PDF</a></li>
+    <li><a href='ficpdf/ficall.tex' target='_blank' class="waves-effect waves-light btn-large white-text">Format LaTeX</a></li>
+    <li><a href='https://github.com/exo7math' class="waves-effect waves-light btn-large white-text">GitHub (LaTeX)</a></li>
+  </ul>
+
+<br><br>
+<div class="divider"></div>
+
 <h5>Auteurs</h5>
 <p>
 <ul> 
@@ -113,7 +123,8 @@ et en signalant toutes les fautes existantes. Il vous suffit d'écrire à
 <p>
 Accès restreint : <a href="https://exo7.emath.fr/">page des modifications.</a>
 </p>
-<br>
+
+<div class="divider"></div>
 
 <h5>Questions fréquentes</h5>
 <p>

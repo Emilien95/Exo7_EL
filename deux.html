@@ -32,10 +32,11 @@
 
 <!--    <div id="headerpic"></div>
 -->
-    <nav>
-        <div class="nav-wrapper center">
+    <nav class="fixed">
+        <div class="nav-wrapper center ">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
+                <li><a href="index2.html">Acceuil</a></li>
                 <li><a href="un.html" >Première année</a></li>
                 <li><a href="deux.html">Deuxième année</a></li>
                 <li><a href="trois.html">Troisième année</a></li>
@@ -45,7 +46,9 @@
         </div>
     </nav>
 
+
     <ul class="sidenav" id="mobile-demo">
+    <li><a href="index2.html">Acceuil</a></li>
     <li><a href="un.html">Première année</a></li>
     <li><a href="deux.html">Deuxième année</a></li>
     <li><a href="trois.html">Troisième année</a></li>
@@ -53,93 +56,332 @@
     <li><a href="search.php">Rechercher</a></li>
   </ul>
 
+
+  <div class="col hide-on-small-only m3 l2">
+      <ul class="section table-of-contents fixed">
+        <li><a href="#coursAnalyse">Cours d'analyse</a></li>
+        <li><a href="#analyse">Analyse</a></li>
+        <li><a href="#algebre">Algèbre</a></li>
+        <li><a href="#proba">Probabilités</a></li>
+        <li><a href="#exQuecia">Exercices de M. Quercia</a></li>
+        <li><a href="#exRouget">Execices de M. Rouget</a></li>
+      </ul>
+    </div>
+
+
 <div class="container">
-  <ul class="collapsible">
-    <li>
-      <div class="collapsible-header"><h6>Cours d'analyse</h6></div>
-        <div class="collapsible-body">Cours : <a href='cours/ch_series.pdf' target='_blank'>Séries</a></div> 
-        <div class="collapsible-body">Cours : <a href='cours/ch_intimp.pdf' target='_blank'>Intégrales impropres</a></div>
-        <div class="collapsible-body">Cours : <a href='cours/ch_intpar.pdf' target='_blank'>Intégrales dépendant d'un paramètre</a></div>
-    </li>
+    <div class="section scollspy" id="coursAnalyse">
+<table class="striped">
+    <thead>
+        <tr>
+            <th>Cours d'analyse</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Cours : <a href='cours/ch_series.pdf' target='_blank'>Séries</a></td>
+        </tr>
+        <tr>
+            <td>Cours : <a href='cours/ch_intimp.pdf' target='_blank'>Intégrales impropres</a></td>
+        </tr>
+        <tr>
+            <td>Cours : <a href='cours/ch_intpar.pdf' target='_blank'>Intégrales dépendant d'un paramètre</a></td>
+        </tr>
+    </tbody>
+</table>
+</div>
 
+<div class="divider"></div>
 
-    <li>
-      <div class="collapsible-header"><h6>Analyse</h6></div>
-        <div class="collapsible-body"><a href='ficpdf/fic00059.pdf' target='_blank' ;">Fonctions et topologie élémentaire de R^n</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00060.pdf' target='_blank' ;">Limites de suites et de fonctions</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00061.pdf' target='_blank' ;">Dérivées partielles et directionnelles</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00062.pdf' target='_blank' ;">Dérivées partielles : révisions</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00063.pdf' target='_blank' ;">Plans tangents à un graphe, différentiabilité</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00064.pdf' target='_blank' ;">Différentielles et dérivées partielles secondes</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00065.pdf' target='_blank' ;">Extremums locaux, gradient, fonctions implicites</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00066.pdf' target='_blank' ;">Sujets d'examen</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00158.pdf' target='_blank' ;">Formes différentielles</a></div> 
-    </li>
+<div class="section scrollspy" id="analyse">
+<table class="striped">
+    <thead>
+        <tr>
+            <th>Analyse (PDF) </th>
+            <th>.html</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href='ficpdf/fic00059.pdf' target='_blank'>Fonctions et topologie élémentaire de R^n (5 exerices)</a></td>
+            <td><a href=fichtml/fic00059.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00060.pdf' target='_blank'>Limites de suites et de fonctions (5 exerices)</a></td>
+            <td><a href=fichtml/fic00060.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00061.pdf' target='_blank'>Dérivées partielles et directionnelles (5 exerices)</a></td>
+            <td><a href=fichtml/fic00061.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00062.pdf' target='_blank'>Dérivées partielles : révisions (4 exerices)</a></td>
+            <td><a href=fichtml/fic00062.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00063.pdf' target='_blank'>Plans tangents à un graphe, différentiabilité (7 exerices)</a></td>
+            <td><a href=fichtml/fic00063.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00064.pdf' target='_blank'>Différentielles et dérivées partielles secondes (6 exerices)</a></td>
+            <td><a href=fichtml/fic00064.html>.html</a></div></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00065.pdf' target='_blank'>Extremums locaux, gradient, fonctions implicites (6 exerices)</a></td>
+            <td><a href=fichtml/fic00065.html>.html</a></div></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00066.pdf' target='_blank'>Sujets d'examen (9 exerices)</a></td>
+            <td><a href=fichtml/fic00066.html>.html</a></div></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00158.pdf' target='_blank'>Formes différentielles (10 exerices)</a></td>
+            <td><a href=fichtml/fic00158.html>.html</a></div></td>
+        </tr>
+    </tbody>
+</table>
+</div>
 
+<div class="divider"></div>
 
-    <li>
-      <div class="collapsible-header"><h6>Algèbre</h6></div>
-        <div class="collapsible-body">Cours : <a href='cours/ch_vp.pdf' target='_blank'>Valeurs propres, vecteurs propres</a></div> 
-        <div class="collapsible-body">Cours : <a href='cours/ch_diagon.pdf' target='_blank'>Diagonalisation</a></div> 
-        <div class="collapsible-body">Cours : <a href='cours/ch_polyendo.pdf' target='_blank'>Polynômes d'endomorphismes</a></div> 
-        <div class="collapsible-body">Cours : <a href='cours/ch_jordan.pdf' target='_blank'>Décomposition de Dunford et réduction de Jordan</a></div> 
-        <div class="collapsible-body">Cours : <a href='cours/ch_sysdiff.pdf' target='_blank'>Systèmes différentiels</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00054.pdf' target='_blank'>Sujet de l'année 2004-2005</a></div>
-        <div class="collapsible-body"><a href='ficpdf/fic00055.pdf' target='_blank'>Sujet de l'année 2005-2006</a></div>
-        <div class="collapsible-body"><a href='ficpdf/fic00056.pdf' target='_blank'>Sujet de l'année 2006-2007</a></div>
-        <div class="collapsible-body"><a href='ficpdf/fic00057.pdf' target='_blank'>Sujet de l'année 2007-2008</a></div>
-        <div class="collapsible-body"><a href='ficpdf/fic00058.pdf' target='_blank'>Sujet de l'année 2008-2009</a></div>
-    </li>
+<div class="section scrollspy" id="algebre">
+    <table class="striped">
+    <thead>
+        <tr>
+            <th>Algèbre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Cours : <a href='cours/ch_vp.pdf' target='_blank'>Valeurs propres, vecteurs propres</a></td>
+        </tr>
+        <tr>
+            <td>Cours : <a href='cours/ch_diagon.pdf' target='_blank'>Diagonalisation</a></td>
+        </tr>
+        <tr>
+            <td>Cours : <a href='cours/ch_polyendo.pdf' target='_blank'>Polynômes d'endomorphismes</a></td>
+        </tr>
+        <tr>
+            <td>Cours : <a href='cours/ch_jordan.pdf' target='_blank'>Décomposition de Dunford et réduction de Jordan</a></td>
+        </tr>
+        <tr>
+            <td>Cours : <a href='cours/ch_sysdiff.pdf' target='_blank'>Systèmes différentiels</a></td>
+        </tr>
+    </tbody>
+</table>
 
+<p>Voici des sujets de devoirs à la maison et d'examen fournis par Sandra Delaunay. Le programme du modules est le suivant : Déterminants. Réduction des endomorphismes. Polynôme caractéristique d'un endomorphisme.Diagonalisation, trigonalisation. Cayley-Hamilton. Décomposition de Dunford</p>
 
-    <li>
-      <div class="collapsible-header"><h6>Probabilité</h6></div>
-        <div class="collapsible-body"><a href='ficpdf/fic00150.pdf' target='_blank'>Probabilité et dénombrement ; indépendance</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00151.pdf' target='_blank'>Probabilité conditionnelle</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00152.pdf' target='_blank'>Variables aléatoires discrètes</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00153.pdf' target='_blank'>Loi normale et approximations</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00154.pdf' target='_blank'>Tendance de la loi binomiale vers la loi normale</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00155.pdf' target='_blank'>Estimation et intervalle de confiance</a></div> 
-        <div class="collapsible-body"><a href='ficpdf/fic00156.pdf' target='_blank'>Tests et tests du khi deux</a></div>
-    </li>
+<table class="striped">
+    <thead>
+        <tr>
+            <th>Sujets d'examen (PDF)</th>
+            <th>.html</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href='ficpdf/fic00054.pdf' target='_blank'>Sujet de l'année 2004-2005 (17 exercices</a></td>
+            <td><a href=fichtml/fic00054.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00055.pdf' target='_blank'>Sujet de l'année 2005-2006 (13 exercices</a></td>
+            <td><a href=fichtml/fic00055.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00056.pdf' target='_blank'>Sujet de l'année 2006-2007 (12 exercices</a></td>
+            <td><a href=fichtml/fic00056.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00057.pdf' target='_blank'>Sujet de l'année 2007-2008 (8 exercices</a></td>
+            <td><a href=fichtml/fic00057.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00058.pdf' target='_blank'>Sujet de l'année 2008-2009 (5 exercices</a></td>
+            <td><a href=fichtml/fic00058.html>.html</a></td>
+        </tr>
+    </tbody>
+</table>
+</div>
 
+<div class="divider"></div>
 
-    <li>
-      <div class="collapsible-header"><h6>Exercices de math-spé de M. Quercia</h6></div>
-        <div class="collapsible-body"><a href='ficpdf/fic00080.pdf' target='_blank' >Exercices Math Sup et Math Spé</a></div>
-    </li>
+<div class="section scrollspy" id="proba">
+    <p>Ci-dessous vous trouverez des exercices de probabilités de Martine Quinio Benamo.Pour plus de contenu théorique et pratique, et pour plus de détails sur les aspects historiques (par exempleétudes liens tabac et cancers, études statistiques sur énergie, travail et genre... ), on pourra consulter l’ouvrage «Probabilités et statistique aujourd’hui», Martine Quinio Benamo, nouvelle édition 2009, L’Harmattan.</p>
+    <table class="striped">
+    <thead>
+        <tr>
+            <th>Probabilités (PDF) </th>
+            <th>.html</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href='ficpdf/fic00150.pdf' target='_blank'>Probabilité et dénombrement ; indépendance (9 exercices)</a></td>
+            <td><a href=fichtml/fic00150.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00151.pdf' target='_blank'>Probabilité conditionnelle (13 exercices)</a></td>
+            <td><a href=fichtml/fic00151.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00152.pdf' target='_blank'>Variables aléatoires discrètes (9 exercices)</a></td>
+            <td><a href=fichtml/fic00152.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00153.pdf' target='_blank'>Loi normale et approximations (6 exercices)</a></td>
+            <td><a href=fichtml/fic00153.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00154.pdf' target='_blank'>Tendance de la loi binomiale vers la loi normale (5 exercices)</a></td>
+            <td><a href=fichtml/fic00154.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00155.pdf' target='_blank'>Estimation et intervalle de confiance (7 exercices)</a></td>
+            <td><a href=fichtml/fic00155.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00156.pdf' target='_blank'>Tests et tests du khi deux (2 exercices)</a></td>
+            <td><a href=fichtml/fic00156.html>.html</a></td>
+        </tr>
+    </tbody>
+    </table>
+</div>
 
-    <li>
-      <div class="collapsible-header"><h6>Exercices de math-sup de J.-L. Rouget</h6></div>
-        <div  class="collapsible-body"><a href='ficpdf/fic00117.pdf' target='_blank'>Algèbre linéaire I</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00118.pdf' target='_blank'>Algèbre linéaire II</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00119.pdf' target='_blank'>Dualité</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00120.pdf' target='_blank'>Déterminants</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00121.pdf' target='_blank'>Réduction</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00122.pdf' target='_blank'>Séries</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00123.pdf' target='_blank'>Intégration</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00124.pdf' target='_blank'>Suites et séries de fonctions</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00125.pdf' target='_blank'>Suites et séries d’intégrales</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00126.pdf' target='_blank'>Séries entières</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00127.pdf' target='_blank'>Intégrales dépendant d’un paramètre</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00128.pdf' target='_blank'>Espaces préhilbertiens</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00129.pdf' target='_blank'>Séries de Fourier</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00130.pdf' target='_blank'>Espaces euclidiens</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00131.pdf' target='_blank'>Formes quadratiques</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00132.pdf' target='_blank'>Coniques</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00133.pdf' target='_blank'>Quadriques</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00134.pdf' target='_blank'>Topologie</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00135.pdf' target='_blank'>Applications linéaires continues, normes matricielles</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00136.pdf' target='_blank'>Suites et séries de matrices</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00137.pdf' target='_blank'>Equations différentielles linéaires</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00138.pdf' target='_blank'>Fonctions de plusieurs variables</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00139.pdf' target='_blank'>Intégrales curvilignes, intégrales multiples</a></div> 
-        <div  class="collapsible-body"><a href='ficpdf/fic00140.pdf' target='_blank'>Surfaces</a></div> 
-    </li>
+<div class="divider"></div>
 
-  </ul>
+<div class="section scrollspy" id="exQuecia">
+<table class="striped">
+    <thead>
+        <tr>
+            <th>Exercices de math-spé de M. Quercia (PDF)</th>
+            <th>.html</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href='ficpdf/fic00080.pdf' target='_blank' >Exercices Math Sup et Math Spé</a></td>
+            <td><a href=fichtml/fic00080.html onClick="_gaq.push(['_trackPageview', '/downloads/fic00080']);">.html</a></td>
+        </tr>
+    </tbody>
+</table>
 
 </div>
+
+<div class="divider"></div>
+
+<div class="section scrollspy" id="exRouget">
+<table class="striped">
+    <thead>
+        <tr>
+            <th>Exercices de math-sup de J.-L. Rouget (PDF)</th>
+            <th>.html</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href='ficpdf/fic00117.pdf' target='_blank'>Algèbre linéaire I</a></td>
+            <td><a href=fichtml/fic00117.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00118.pdf' target='_blank'>Algèbre linéaire II</a></td>
+            <td><a href=fichtml/fic00118.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00119.pdf' target='_blank'>Dualité</a></td>
+            <td><a href=fichtml/fic00119.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00120.pdf' target='_blank'>Déterminants</a></td>
+            <td><a href=fichtml/fic00120.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00121.pdf' target='_blank'>Réduction</a></td>
+            <td><a href=fichtml/fic00121.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00122.pdf' target='_blank'>Séries</a></td>
+            <td><a href=fichtml/fic00122.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00123.pdf' target='_blank'>Intégration</a></td>
+            <td><a href=fichtml/fic00123.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00124.pdf' target='_blank'>Suites et séries de fonctions</a></td>
+            <td><a href=fichtml/fic00124.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00125.pdf' target='_blank'>Suites et séries d’intégrales</a></td>
+            <td><a href=fichtml/fic00125.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00126.pdf' target='_blank'>Séries entières</a></td>
+            <td><a href=fichtml/fic00126.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00127.pdf' target='_blank'>Intégrales dépendant d’un paramètre</a></td>
+            <td><a href=fichtml/fic00127.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00128.pdf' target='_blank'>Espaces préhilbertiens</a></td>
+            <td><a href=fichtml/fic00128.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00129.pdf' target='_blank'>Séries de Fourier</a></td>
+            <td><a href=fichtml/fic00129.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00130.pdf' target='_blank'>Espaces euclidiens</a></td>
+            <td><a href=fichtml/fic00130.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00131.pdf' target='_blank'>Formes quadratiques</a></td>
+            <td><a href=fichtml/fic00131.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00132.pdf' target='_blank'>Coniques</a></td>
+            <td><a href=fichtml/fic00132.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00133.pdf' target='_blank'>Quadriques</a></td>
+            <td><a href=fichtml/fic00133.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00134.pdf' target='_blank'>Topologie</a></td>
+            <td><a href=fichtml/fic00134.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00135.pdf' target='_blank'>Applications linéaires continues, normes matricielles</a></td>
+            <td><a href=fichtml/fic00135.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00136.pdf' target='_blank'>Suites et séries de matrices</a></td>
+            <td><a href=fichtml/fic00136.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00137.pdf' target='_blank'>Equations différentielles linéaires</a></td>
+            <td><a href=fichtml/fic00137.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00138.pdf' target='_blank'>Fonctions de plusieurs variables</a></td>
+            <td><a href=fichtml/fic00138.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00139.pdf' target='_blank'>Intégrales curvilignes, intégrales multiples</a></td>
+            <td><a href=fichtml/fic00139.html>.html</a></td>
+        </tr>
+        <tr>
+            <td><a href='ficpdf/fic00140.pdf' target='_blank'>Surfaces</a></td>
+            <td><a href=fichtml/fic00140.html>.html</a></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+
+
 <footer class="page-footer">
                       <h6>Auteurs</h6>
 <p>Les cours et les vidéos sont produits par Arnaud Bodin (Université de Lille), Léa Blanc-Centi (Université de Lille), Niels Borne (Université de Lille), Benjamin Boutin (Université Rennes 1),
